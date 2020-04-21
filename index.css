@@ -8,7 +8,7 @@
     position: absolute;
     width: 100%;
     pointer-events: none;
-    top:42%;
+    top:35%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,6 +49,50 @@
     display: inline;
     text-align: center;
     color:rgb(227, 27, 109);
+}
+
+.nav{
+    background: #1b242f;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #04c2c9;
+    height: 50px;
+    text-align: left;
+    width: 100%;
+    z-index: 99;
+}
+
+.flex {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: ivory;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0 20px;
+    color: ivory;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: color 0.5s;
+}
+.nav .active {
+    color: #e31b6d;
+}
+
+.content{
+    height: 30vh;
+    width:100%;
+    color:#e31b6d;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .canvas{
