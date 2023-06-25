@@ -1,3 +1,6 @@
+import Head from 'next/head';
+import Script from 'next/script'
+
 import { Nav } from '@components';
 import '@styles/globals.css';
 
@@ -14,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Script src="https://kit.fontawesome.com/11ec5388db.js" async ></Script>
         <main className='font-kanit text-primaryBlack'>
           <Nav/>
           {children}
