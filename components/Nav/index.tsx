@@ -10,7 +10,7 @@ const Nav = () => {
 
 
   return (
-    <nav className='px-12 py-6 shadow-nav'>
+    <nav className='md:px-12 px-4  py-6 shadow-nav'>
       <div className='flex justify-between items-center'>
         <h1 className='text-2xl font-semibold text-primaryBlack cursor-pointer'>
           Ayush Kumar Sinha
