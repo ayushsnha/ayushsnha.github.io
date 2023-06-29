@@ -19,7 +19,7 @@ export default function RootLayout({
       <body>
         <Script src="https://kit.fontawesome.com/11ec5388db.js" async ></Script>
         <main className='font-kanit text-primaryBlack'>
-          <Nav/>
+          <Nav />
           {children}
         </main>
       </body>
