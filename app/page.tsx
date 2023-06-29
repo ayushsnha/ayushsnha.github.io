@@ -10,7 +10,7 @@ export default function Home() {
             <div className='max-w-[50rem]'>
               <h1 className=" font-bold text-6xl text-center my-8">Javascript Developer 👋🏻</h1>
               <p className="text-2xl text-center">
-                Hi, I'm Ayush Kumar Sinha. A passionate Javasscript Developer based in Ranchi, India🇮🇳. 📍
+                Hi, I&apos;m Ayush Kumar Sinha. A passionate Javasscript Developer based in Ranchi, India🇮🇳. 📍
               </p>
             </div>
           </div>
