@@ -9,8 +9,8 @@ export default function Home() {
             <div className='image' />
             <div className='max-w-[50rem]'>
               <h1 className=" font-bold text-6xl text-center my-8">Javascript Developer 👋🏻</h1>
-              <p className="text-2xl text-center">
-                Hi, I&apos;m Ayush Kumar Sinha. A passionate Javasscript Developer based in Ranchi, India🇮🇳. 📍
+              <p className="text-2xl text-left max-w-[30rem]">
+                Hi, I&apos;m Ayush Kumar Sinha. A passionate Javascript Developer based in Ranchi, India🇮🇳. 📍
               </p>
             </div>
           </div>

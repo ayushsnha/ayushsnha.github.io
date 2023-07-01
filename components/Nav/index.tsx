@@ -49,14 +49,16 @@ const Nav = () => {
       </nav>
       <div
         className={`${isOpen ? 'translate-x-0' : '-translate-x-full'
-          } md:hidden absolute top-0 h-screen z-30 bg-white w-full right-0 bottom-0 px-12 py-6 text-3xl flex flex-col transition-transform duration-300 ease-in-out`}
+          } md:hidden top-0 h-screen z-30 bg-white w-full right-0 bottom-0 px-12 py-6 text-3xl flex flex-col transition-transform duration-300 ease-in-out fixed`}
       >
         <div className='flex justify-end'>
           <div onClick={(e) => { e.stopPropagation(); toggleMenu() }}>
             <i className='fa-solid fa-xmark'></i>
           </div>
         </div>
-        <ul className='flex flex-col align-center justify-center gap-8 w-full text-center h-full'>
+        <ul
+          onClick={() => setIsOpen(false)}
+          className='flex flex-col align-center justify-center gap-8 w-full text-center h-full'>
           <li>
             <a href='#home' className='hover:text-hover text-3xl font-medium'>
               Home
