@@ -5,7 +5,7 @@ import { Nav } from '@components';
 import '@styles/globals.css';
 
 export const metadata = {
-  title: 'Ayush Kumar Sinha | Javascript Developer',
+  title: 'Ayush Kumar Sinha | Frontend Developer',
   description: 'Porfolio site of Ayush Kumar Sinha',
 }
 

@@ -7,12 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      boxShadow:{
+      boxShadow: {
         nav: '0 0 10px rgba(0,0,0,.09)'
       },
-      textColor:{
+      textColor: {
         primaryBlack: '#2d2e32',
-        hover: '#147efb'
+        hover: '#6C63FF'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
