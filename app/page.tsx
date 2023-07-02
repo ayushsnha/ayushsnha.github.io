@@ -30,6 +30,10 @@ const techStakList = [
     svg: 'node.svg'
   },
   {
+    name: 'ExpressJS',
+    svg: 'express.svg'
+  },
+  {
     name: 'Redux',
     svg: 'redux.svg'
   },
