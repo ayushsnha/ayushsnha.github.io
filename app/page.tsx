@@ -107,7 +107,7 @@ export default function Home() {
           </div>
         </div>
       </section >
-      <section className="px-12 min-h-[60vh] flex flex-col justify-center" id="about">
+      <section className="px-[2rem] md:px-[7rem] min-h-[60vh] flex flex-col justify-center pb-[2rem]" id="about">
         <div className="flex justify-center">
           <h2 className="text-center border-[#6C63FF] border-b-2 text-xl uppercase w-fit mt-6">About Me</h2>
         </div>
@@ -120,6 +120,27 @@ export default function Home() {
                 I excel at creating seamless user experiences with modern design principles. With a good foundation in Node.js and MongoDB as well, I am committed to delivering high-quality, performant solutions.
                 Let&apos;s <span className="text-hover hover:underline"><a href="#contact">collaborate</a></span> and bring your ideas to life with innovative, user-centric web development.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="md:px-[7rem] px-[2rem]  min-h-[40vh] flex flex-col justify-start bg-[#F9F9F9] pb-[2rem]" id="contact">
+        <div className="flex justify-start">
+          <h2 className="text-center border-[#6C63FF] border-b-2 text-xl uppercase w-fit mt-6">Contact Me 📞</h2>
+        </div>
+        <div className="flex flex-col md:flex-row h-[100%] items-center mt-6 gap-[4rem]">
+          <div className="flex flex-col w-[100%]">
+            <h5 className="text-xl font-semibold">Email</h5>
+            <div className="flex items-center flex-col md:flex-row">
+              <div className="mail"></div>
+              <p className="text-lg text-gray-600 hover:text-hover"><a href="mailto:ayushkumarsinha.work@gmail.com">ayushkumarsinha.work@gmail.com</a></p>
+            </div>
+          </div>
+          <div className="flex flex-col items-start w-[100%]">
+            <h5 className="text-xl font-semibold">Location</h5>
+            <div className="flex flex-nowrap items-center">
+              <div className="location"></div>
+              <p className="text-lg text-gray-600 hover:text-hover">Ranchi, India🇮🇳</p>
             </div>
           </div>
         </div>

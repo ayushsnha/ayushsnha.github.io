@@ -28,11 +28,11 @@ const Nav = () => {
                   About
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href='#projects' className='hover:text-hover text-xl font-medium'>
                   Projects
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href='#contact' className='hover:text-hover text-xl font-medium'>
                   Contact
@@ -69,11 +69,11 @@ const Nav = () => {
               About
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href='#projects' className='hover:text-hover text-3xl font-medium'>
               Projects
             </a>
-          </li>
+          </li> */}
           <li>
             <a href='#contact' className='hover:text-hover text-3xl font-medium'>
               Contact
