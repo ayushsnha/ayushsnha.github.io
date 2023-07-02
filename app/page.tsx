@@ -71,7 +71,7 @@ const renderList = ({ name, svg }: techStakListProp) => (
 export default function Home() {
   return (
     <>
-      <section className="flex flex-col items-center justify-center min-h-[100vh] pt-[6rem] md:pt-[11rem] pb-[2rem] bg-[#F9F9F9]">
+      <section className="flex flex-col items-center justify-center min-h-[100vh] pt-[6rem] md:pt-[11rem] pb-[2rem] bg-[#F9F9F9]" id="home">
         <div className="px-6">
           <div className="flex items-center justify-center">
             <div className="flex flex-col items-center justify-between gap-5 md:gap-[12rem] md:flex-row-reverse">
@@ -107,8 +107,22 @@ export default function Home() {
           </div>
         </div>
       </section >
-      <section className="">
-        <h2>H2</h2>
+      <section className="px-12 min-h-[60vh] flex flex-col justify-center" id="about">
+        <div className="flex justify-center">
+          <h2 className="text-center border-[#6C63FF] border-b-2 text-xl uppercase w-fit mt-6">About Me</h2>
+        </div>
+        <div className="flex flex-col h-[100%] items-center justify-center mt-6">
+          <div className="flex flex-col items-center gap-4 md:gap-[12rem] md:flex-row">
+            <div className="aboutImage w-[30%] min-w-[30%] mt-3"></div>
+            <div className="max-w-[80%] md:max-w-[60%]">
+              <p className="w-[100%] md:max-w-[80%] text-lg text-gray-600 text-left">
+                A Passionate Frontend Developer specializing in ReactJS, React Native, and Next.js with extensive experience in building dynamic and responsive web applications.
+                I excel at creating seamless user experiences with modern design principles. With a good foundation in Node.js and MongoDB as well, I am committed to delivering high-quality, performant solutions.
+                Let&apos;s <span className="text-hover hover:underline"><a href="#contact">collaborate</a></span> and bring your ideas to life with innovative, user-centric web development.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   )
