@@ -35,3 +35,40 @@
 .hover-border:hover svg {
   fill: #6C63FF; /* Change the fill color to the desired color */
 }
+
+.logoul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    list-style: none;
+}
+
+.logoli {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    cursor: pointer;
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    width: 4rem;
+}
+
+.fill-animation {
+  background-color: transparent;
+  transition: background-color 1s ease;
+}
+
+.fill-animation:hover {
+  background-color: rgba(108, 99, 255,0.2)
+}
+
+@keyframes fade-in {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: rgba(108, 99, 255,0.2)
+  }
+}
